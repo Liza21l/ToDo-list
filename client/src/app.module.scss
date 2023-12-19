@@ -1,0 +1,78 @@
+.column{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    &_ToDo{
+        border-radius: 10px;
+        width: 350px;
+        height: 500px;
+        background: rgba(140, 140, 140, 0.74);
+    }
+    &_InProgress{
+        border-radius: 10px;
+        width: 350px;
+        height: 500px;
+        background: rgba(140, 140, 140, 0.74);
+    }
+    &_Done{
+        border-radius: 10px;
+        width: 350px;
+        height: 500px;
+        background: rgba(140, 140, 140, 0.74);
+    }
+}
+.note{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px;
+    width: 280px;
+    height: 80px;
+    background: rgba(1, 161, 161, 0.641);
+    border-radius: 5px;
+    border: 2px solid white;
+    &_titleNote{
+        margin: -1px 10px;
+    }
+    &_noteDescription{
+        width: 200px;
+        margin: 10px 10px;
+    }
+}
+.form{
+    margin: 20px auto;
+    padding-top: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid #029593d8;
+}
+.select{
+    width: 150px;
+    height: 26px;
+    border-radius: 5px;
+    border: none;
+}
+
+.title{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.description{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.btnCreate{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(169, 223, 138);
+}
